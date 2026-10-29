@@ -35,4 +35,23 @@ A collection of learning materials used throughout my Linux and cybersecurity jo
 - Linux logs and security
 - System hardening
 
+
+## Day 6 — Linux Networking Fundamentals
+
+### Video
+- Essential Linux Networking Commands:
+  https://www.youtube.com/watch?v=nqGJvb5fo9o
+
+### Reading
+- Ubuntu Networking:
+  https://ubuntu.com/server/docs/explanation/networking/configuring-networks/
+- Ubuntu Security — Listening Ports:
+  https://documentation.ubuntu.com/security/common-mistakes/unnecessarily-open-ports/
+
+### Topics
+- Network interfaces
+- IP addresses and routing
+- Connectivity testing
+- DNS resolution
+- Listening sockets and ports
 Resources will be added as I progress. I will record my own notes separately in `daily-notes/`.
