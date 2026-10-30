@@ -55,3 +55,23 @@ A collection of learning materials used throughout my Linux and cybersecurity jo
 - DNS resolution
 - Listening sockets and ports
 Resources will be added as I progress. I will record my own notes separately in `daily-notes/`.
+## Day 7 — Linux Package Management
+
+### Video
+- Linux Basics for Beginners — How to Use APT:
+  https://www.youtube.com/watch?v=c9-AbHhoCeI
+
+### Reading
+- Ubuntu Package Management:
+  https://ubuntu.com/server/docs/how-to/software/package-management/
+- Ubuntu Managing Software:
+  https://ubuntu.com/server/docs/tutorial/managing-software/
+
+### Topics
+- APT and dpkg
+- Debian packages
+- Software repositories
+- Package dependencies
+- Software installation
+- Package updates and upgrades
+- Package verification
