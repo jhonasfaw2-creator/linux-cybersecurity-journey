@@ -11,36 +11,37 @@ systemctl --version
 ps -p 1 -o pid,comm,args
 ```
 **Screenshot 1:** 
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-26-56.png
+![Screenshot 1](screenshots/Screenshot%20From%202026-11-02%2022-26-56.png)
 
 ### 2. List Running Services
 ```bash
 systemctl list-units --type=service --state=running
 ```
 **Screenshot 2:** 
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-28-30.png
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-28-36.png
+![Screenshot 2](screenshots/Screenshot%20From%202026-11-02%2022-28-30.png)
 
+![Screenshot 3](screenshots/Screenshot%20From%202026-11-02%2022-28-36.png)
 ### 3. Inspect a Service
 ```bash
 systemctl status NetworkManager
 ```
 **Screenshot 3:** 
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-30-08.png
 
+![Screenshot 4](screenshots/Screenshot%20From%202026-11-02%2022-30-08.png)
 ### 4. Check Failed Services
 ```bash
 systemctl --failed
 ```
 **Screenshot 4:** 
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-31-14.png
+![Screenshot 5](screenshots/Screenshot%20From%202026-11-02%2022-31-14.png)
 
 ### 5. Inspect System Logs
 ```bash
 journalctl -n 20 --no-pager
 ```
 **Screenshot 5:** 
-/home/johannes/Pictures/Screenshots/Screenshot From 2026-11-02 22-32-05.png
+
+![Screenshot 6](screenshots/Screenshot%20From%202026-11-02%2022-32-05.png)
 
 ## Results
 Record your actual findings:
